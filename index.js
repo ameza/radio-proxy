@@ -34,7 +34,7 @@ app.listen(serverport, () => {
   dns.lookup(hostname, (err, ip) => {
     // retrieve network local ip
     process.stdout.write('Audio Proxy Server runs under\n');
-    process.stdout.write(`  Local:        http://locahost:${serverport}\n`);
+    process.stdout.write(`  Local:        http://localhost:${serverport}\n`);
     process.stdout.write(`  Home Network: http://${ip}:${serverport}\n`);
   });
 });

@@ -1,0 +1,27 @@
+{
+  "name": "radio-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dns": "^0.2.2",
+    "express": "^4.16.4",
+    "os": "^0.1.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameza/radio-proxy.git"
+  },
+  "author": "andres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ameza/radio-proxy/issues"
+  },
+  "homepage": "https://github.com/ameza/radio-proxy#readme"
+}
